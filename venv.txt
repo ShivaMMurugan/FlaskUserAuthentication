@@ -1,4 +1,4 @@
-Creatig virtual environment for linux os - > ubuntu all versions
+#Creatig virtual environment for linux os - > ubuntu all versions
 
 sudo apt-get update
 sudo apt install python3-venv
