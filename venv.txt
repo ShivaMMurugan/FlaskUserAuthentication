@@ -1,0 +1,6 @@
+Creatig virtual environment for linux os - > ubuntu all versions
+
+sudo apt-get update
+sudo apt install python3-venv
+python3 -m venv <name of your virtual environment> ex: myproject
+source myproject /bin/activate
