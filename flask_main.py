@@ -5,6 +5,7 @@ from wtforms import StringField
 
 
 app = Flask(__name__)
+#sample secret key, generated from python's secrets module> secrets.token_hex()
 app.config['SECRET_KEY'] = 'b87e6e3fd893f525f32af96dd8e284808aeb0aa24e5043d6f20a62d81c4503bb'
 app.config['MONGO_URI'] = 'mongodb://localhost:27017/users'
 mongo = PyMongo(app)
